@@ -9,6 +9,7 @@
 import Foundation
 import CryptoKit
 import CommonCrypto
+//This is again Server side code and should not happen in your client side app
 public struct ChecksumHelper {
     public static func calculateChecksum(of input: String, api: String, salt: String, saltIndex: Int) -> String {
         let inputString = input + api + salt        
