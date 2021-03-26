@@ -20,6 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
         
+        let handled = PhonePeDPSDK.checkDeeplink(url, options: options)
+        if handled {
+            // Phonepe is handling this, no need for any processing
+            return true
+        }
         //Process your own deeplinks here
         return true
     }

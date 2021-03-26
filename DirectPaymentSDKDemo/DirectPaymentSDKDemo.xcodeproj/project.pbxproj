@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9522891A260DD9CE007FE750 /* DirectPaymentSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95228918260DD9C6007FE750 /* DirectPaymentSDK.xcframework */; };
+		9522891B260DD9CE007FE750 /* DirectPaymentSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 95228918260DD9C6007FE750 /* DirectPaymentSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		95566C5D25F5E1D800BFBB07 /* ChecksumHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95566C5C25F5E1D800BFBB07 /* ChecksumHelper.swift */; };
 		C9C53D9B258AE73F00C86CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C53D9A258AE73F00C86CCA /* AppDelegate.swift */; };
 		C9C53D9F258AE73F00C86CCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C53D9E258AE73F00C86CCA /* ViewController.swift */; };
@@ -22,6 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				9522891B260DD9CE007FE750 /* DirectPaymentSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -29,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		95228918260DD9C6007FE750 /* DirectPaymentSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DirectPaymentSDK.xcframework; path = ../Frameworks/DirectPaymentSDK.xcframework; sourceTree = "<group>"; };
 		95566C5C25F5E1D800BFBB07 /* ChecksumHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecksumHelper.swift; sourceTree = "<group>"; };
 		C9C53D97258AE73F00C86CCA /* DirectPaymentSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectPaymentSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C53D9A258AE73F00C86CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9522891A260DD9CE007FE750 /* DirectPaymentSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +89,7 @@
 		C9C53DB6258AE84100C86CCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				95228918260DD9C6007FE750 /* DirectPaymentSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
