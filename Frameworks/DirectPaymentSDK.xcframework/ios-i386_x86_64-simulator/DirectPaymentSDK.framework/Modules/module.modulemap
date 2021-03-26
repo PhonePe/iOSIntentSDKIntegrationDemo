@@ -1,0 +1,14 @@
+framework module DirectPaymentSDK {
+  umbrella header "DirectPaymentSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module DirectPaymentSDK.Swift {
+    header "DirectPaymentSDK-Swift.h"
+    requires objc
+}
+
+module LigeroPrivate { }
+
